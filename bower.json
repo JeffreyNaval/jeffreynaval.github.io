@@ -1,0 +1,21 @@
+{
+  "name": "jeffreynaval.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/JeffreyNaval/jeffreynaval.github.io",
+  "authors": [
+    "Jeffrey Naval <jeffrey.naval@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "fontawesome": "~4.4.0",
+    "jquery": "1.11.3"
+  }
+}

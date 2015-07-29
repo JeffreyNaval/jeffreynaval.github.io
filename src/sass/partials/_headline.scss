@@ -1,0 +1,20 @@
+.headline-bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 400px;
+    background: #253340 no-repeat 50% top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    // background-image: url('../img/bg-header-small-1.jpg');
+}
+
+.over-headline-bg {
+    padding-top: 60px;
+    position: relative;
+    z-index: 10;
+}

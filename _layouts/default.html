@@ -1,5 +1,19 @@
 {% include header.html %}
 
-{{ content }}
+<div class="headline-bg"></div>
+
+<section class="single-section over-headline-bg">
+    <h2 class="title container text-center">{{ page.title }}</h2>
+    <div class="single-container container">
+        <div class="single-container-inner">
+            <div class="single-content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</section>
 
 {% include comments.html %}
+
+{% include footer.html %}
+

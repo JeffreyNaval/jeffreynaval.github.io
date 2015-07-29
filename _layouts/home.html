@@ -1,0 +1,22 @@
+{% include header.html %}
+
+<div class="headline-bg"></div>
+
+<section class="home-section over-headline-bg">
+    <div class="title container text-center">
+        <h2 class="main-title">{{ page.title }}</h2>
+        <p class="sub-title">{{ page.description }}</p>
+    </div>
+
+    <div class="home-container container">
+        <div class="home-container-inner">
+            <div class="home-content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include comments.html %}
+
+{% include footer.html %}
