@@ -1,9 +1,5 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>{{ page.title }}</title>
-</head>
-<body>
-    {{ content }}
-</body>
-</html>
+{% include header.html %}
+
+{{ content }}
+
+{% include comments.html %}
