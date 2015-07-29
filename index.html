@@ -1,1 +1,7 @@
-Hello World
+---
+title: This is my title
+---
+
+{% for post in site.posts %}
+    {% include post_list.html %}
+{% endfor %}
