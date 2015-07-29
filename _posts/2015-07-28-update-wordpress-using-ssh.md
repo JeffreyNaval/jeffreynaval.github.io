@@ -3,7 +3,6 @@ title: Update Wordpress using SSH
 ---
 
 @TODO: Introduction
-
 Connect to your ssh server.
 
 ## Create Maintenance page.

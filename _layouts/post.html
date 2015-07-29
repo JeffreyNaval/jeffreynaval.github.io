@@ -1,13 +1,7 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>{{ page.title }}</title>
-</head>
-<body>
-    {{ content }}
+{% include header.html %}
 
-    {% include comments.html %}
+{{ content }}
 
-    {% include footer.html %}
-</body>
-</html>
+{% include comments.html %}
+
+{% include footer.html %}
