@@ -6,8 +6,18 @@
     <h2 class="title container text-center">{{ page.title }}</h2>
     <div class="single-container container">
         <div class="single-container-inner">
-            <div class="single-content">
-                {{ content }}
+            <div class="row">
+                <div class="col-sm-8 col-md-9">
+                    <div class="single-content">
+                        {{ content }}
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <aside class="sidebar hidden-xs">
+                        {% include sidebar_profile.html %}
+                        {% include sidebar_menu.html %}
+                    </aside>
+                </div>
             </div>
         </div>
     </div>

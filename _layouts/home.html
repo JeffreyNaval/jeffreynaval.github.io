@@ -10,8 +10,17 @@
 
     <div class="home-container container">
         <div class="home-container-inner">
-            <div class="home-content">
-                {{ content }}
+            <div class="row">
+                <div class="col-sm-8 col-md-9">
+                    <div class="home-content">
+                        {{ content }}
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <aside class="sidebar hidden-xs">
+                        {% include sidebar_menu.html %}
+                    </aside>
+                </div>
             </div>
         </div>
     </div>

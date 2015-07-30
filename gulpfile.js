@@ -39,6 +39,16 @@ gulp.task('copy:js', function() {
       .pipe(gulp.dest(config.outputPath+'/js'));
 });
 
+// Jekyll Dist
+gulp.task('dist:css', function () {
+  return gulp.src('./assets/css/**/**.*')
+    .pipe(gulp.dest('./_site/assets/css'));
+});
+gulp.task('dist:js', function () {
+  return gulp.src('./assets/js/**/**.*')
+    .pipe(gulp.dest('./_site/assets/js'));
+});
+
 // Sass
 gulp.task('sass', function () {
   gulp.src(config.sassPath+'/**/*.scss')
@@ -50,7 +60,7 @@ gulp.task('sass', function () {
 });
 // Sass Watch
 gulp.task('sass:watch', function () {
-  gulp.watch(config.sassPath+'/**/*.scss', ['sass']);
+  gulp.watch(config.sassPath+'/**/*.scss', ['sass','dist:css']);
 });
 
 // Uglify
@@ -61,10 +71,12 @@ gulp.task('uglify', function() {
 });
 // Uglify Watch
 gulp.task('uglify:watch', function () {
-  gulp.watch(config.jsPath+'/*.js', ['uglify']);
+  gulp.watch(config.jsPath+'/*.js', ['uglify','dist:js']);
 });
 
 // Tasks
 gulp.task('default', ['sass','uglify']);
-gulp.task('watch', ['sass:watch','uglify:watch']);
 gulp.task('copy',['copy:js','copy:fonts']);
+gulp.task('dist',['dist:js','dist:css']);
+gulp.task('watch', ['sass:watch','uglify:watch','dist']);
+

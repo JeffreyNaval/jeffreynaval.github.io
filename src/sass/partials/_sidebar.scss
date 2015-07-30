@@ -1,0 +1,56 @@
+.sidebar {
+    .menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        border-top: 1px solid #ddd;
+
+        li {
+            margin: 0;
+            padding: 0;
+
+            a {
+                display: block;
+                padding: 5px;
+                border-bottom: 1px solid #ddd;
+
+                &:focus,
+                &:hover {
+                    text-decoration: none;
+                    background: #ddd;
+                }
+            }
+        }
+    }
+}
+
+.sidebar-profile {
+
+    .profile-image {
+        display: block;
+        margin-bottom: 10px;
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .profile-name {
+        font-size: 20px;
+        margin: 0;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .profile-desc {
+        text-align: center;
+        font-size: 12px;
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+}
