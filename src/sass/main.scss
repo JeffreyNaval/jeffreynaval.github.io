@@ -13,12 +13,14 @@ $font-size-h3: 20px;
 @import "font-awesome";
 
 // Partials
+@import "partials/base";
 @import "partials/markdown";
 @import "partials/header";
-
 @import "partials/headline";
 @import "partials/single";
+@import "partials/blogs";
 @import "partials/home";
+@import "partials/portfolio";
 @import "partials/sidebar";
 
 @import "partials/footer";
