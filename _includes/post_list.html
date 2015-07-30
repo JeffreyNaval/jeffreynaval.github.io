@@ -1,6 +1,17 @@
-<article>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<article class="post-list-item">
+    <h2>
+        <a href="{{ post.url }}">
+            {% if post.devicon == nil %}
+                <span class="devicons devicons-code"></span>
+            {% else %}
+                <span class="devicons devicons-{{post.devicon}}"></span>
+            {% endif %}
+
+            {{ post.title }}
+        </a>
+    </h2>
     <div class="excerpt">
-        {{ post.excerpt }} <a href="{{ post.url }}">Read More...</a>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}" class="more">Read More...</a>
     </div>
 </article>

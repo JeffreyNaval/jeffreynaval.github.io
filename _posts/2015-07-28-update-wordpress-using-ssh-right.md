@@ -1,6 +1,7 @@
 ---
-title: Update Wordpress using SSH
+title: Update Wordpress using SSH - Right
 devicon: wordpress
+content_position: right
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.

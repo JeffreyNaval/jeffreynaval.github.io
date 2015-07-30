@@ -7,7 +7,7 @@
     <div class="single-container container">
         <div class="single-container-inner">
             <div class="row">
-                <div class="col-sm-8 col-md-9">
+                <div class="col-sm-8 col-md-9 {% if page.content_position == 'right' %}pull-right{% endif %}">
                     <div class="single-content">
                         {{ content }}
                     </div>

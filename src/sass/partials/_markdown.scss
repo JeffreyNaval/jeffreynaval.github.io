@@ -1,24 +1,21 @@
 .highlight {
     background-color: #222;
-    padding: 15px;
-    color: #fff;
     border-radius: 5px;
-    overflow: auto;
     margin-bottom: 10px;
 
     pre {
+        background-color: #222;
         margin: 0;
-        padding: 0;
+        padding: 15px;
         background-color: transparent;
         border: none;
         color: #fff;
+        max-width: 100%;
+        overflow: auto;
+
+        code {
+            white-space: pre;
+            word-wrap: normal;
+        }
     }
 }
-
-// p {
-//     code {
-//         background: #eee;
-//         padding: 2px 5px;
-//         border-radius: 3px;
-//     }
-// }
