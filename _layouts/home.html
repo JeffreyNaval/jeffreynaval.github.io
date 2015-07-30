@@ -5,11 +5,13 @@
 <section class="home-section over-headline-bg">
     <div class="heading container text-center clearfix">
         <div class="picture">
-            <img src="http://dummyimage.com/400x400/4d494d/686a82.gif&amp;text=Profile" alt="{{ site.name }}">
+            <img src="/assets/img/profile.png" alt="{{ site.name }}">
         </div>
         <div class="wrap">
             <h2 class="title">{{ page.title }}</h2>
             <p class="sub-title">{{ page.description }}</p>
+
+            {% include social-icons.html %}
         </div>
     </div>
 

@@ -30,12 +30,34 @@
         .sub-title {
             color: #fff;
             font-size: 16px;
-            margin: 0;
+            margin: 0 0 5px;
         }
 
         .wrap {
             float: left;
-            margin-top: 20px;
+        }
+    }
+
+    .social-icons {
+
+        .btn-twitter {
+            color: $twitter-color;
+            background: #fff;
+
+            &:hover {
+                background: $twitter-color;
+                color: #fff;
+            }
+        }
+
+        .btn-github {
+            color: $github-color;
+            background: #fff;
+
+            &:hover {
+                background: $github-color;
+                color: #fff;
+            }
         }
     }
 }

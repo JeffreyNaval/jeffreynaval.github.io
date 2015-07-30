@@ -15,6 +15,7 @@ $brand-primary: #0E4C86;
 @import "font-awesome";
 
 // Partials
+@import "partials/variables";
 @import "partials/base";
 @import "partials/markdown";
 @import "partials/header";
@@ -24,5 +25,6 @@ $brand-primary: #0E4C86;
 @import "partials/home";
 @import "partials/portfolio";
 @import "partials/sidebar";
+@import "partials/social-icons";
 
 @import "partials/footer";
