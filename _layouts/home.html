@@ -20,6 +20,11 @@
             <div class="row">
                 <div class="col-sm-8 col-md-9 {% if page.content_position == 'right' %}pull-right{% endif %}">
                     <div class="home-content">
+                        <div class="crumbtrail">
+                            <a href="/">Home</a> <span class="divider">/</span>
+                            About Me <span class="divider">/</span>
+                        </div>
+
                         {{ content }}
                     </div>
                 </div>
