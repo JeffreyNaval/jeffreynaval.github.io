@@ -10,7 +10,6 @@ We can do this by redirecting the page if the user doesn't meet the required cap
 If you want to only allow users with `edit_posts` capability. We can use the code below.
 
 ```php
-<?php
 add_action( 'admin_init', 'redirect_user_by_capability' );
 
 /**
@@ -22,8 +21,6 @@ function redirect_user_by_capability() {
         exit;
     }
 }
-
-?>
 ```
 
 This code will redirect users without `edit_posts` capability to homepage.
