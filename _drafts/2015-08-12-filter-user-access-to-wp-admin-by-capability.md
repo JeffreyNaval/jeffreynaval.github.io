@@ -17,7 +17,7 @@ add_action( 'admin_init', 'redirect_user_by_capability' );
  * Only allow users with edit_post capability
  */
 function redirect_user_by_capability() {
-    if ( ! current_user_can( 'edit_posts' ) && '/wp-admin/admin-ajax.php' != $_SERVER['PHP_SELF'] ) {
+    if ( ! current_user_can( 'edit_posts' ) && site_url() . '/wp-admin/admin-ajax.php' != $_SERVER['PHP_SELF'] ) {
         wp_redirect( home_url() );
         exit;
     }
