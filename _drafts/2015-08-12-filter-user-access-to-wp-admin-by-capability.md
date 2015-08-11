@@ -1,5 +1,6 @@
 ---
 title: Filter user access to wp-admin by capability
+devicon: wordpress
 ---
 
 There are times where we need to block non-admins from accessing wp-admin, or better block access based on capability.
