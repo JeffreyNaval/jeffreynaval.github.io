@@ -9,6 +9,13 @@
         margin-bottom: 0;
         color: #fff;
         font-weight: 300;
+
+        .devicons:before {
+            position: relative;
+            top: 21px;
+            font-size: 80px;
+            line-height: 29px;
+        }
     }
 }
 

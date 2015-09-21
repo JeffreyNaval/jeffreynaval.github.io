@@ -3,7 +3,13 @@
 <div class="headline-bg"></div>
 
 <section class="single-section over-headline-bg">
-    <h2 class="title container text-center">{{ page.title }}</h2>
+    <h2 class="title container text-center">
+        {% if page.devicon == nil %}
+            <span class="devicons devicons-code"></span>
+        {% else %}
+            <span class="devicons devicons-{{page.devicon}}"></span>
+        {% endif %}
+        {{ page.title }}</h2>
     <div class="single-container container">
         <div class="single-container-inner">
             <div class="row">
