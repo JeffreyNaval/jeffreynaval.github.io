@@ -6,6 +6,8 @@ published: True
 devicon: laravel
 ---
 
+I was so happy after reading the docs that it's so easy to cache database queries on Laravel. So I made a note.
+
 Caching database query using Laravel Eloquent.
 
 ```php
