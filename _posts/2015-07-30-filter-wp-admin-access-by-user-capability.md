@@ -15,6 +15,8 @@ If you want to only allow users with `edit_posts` capability. We can use the cod
 
 ```php
 <?php
+
+// Use hook to call our function.
 add_action( 'admin_init', 'redirect_user_by_capability' );
 
 /**
