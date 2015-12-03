@@ -43,4 +43,4 @@ If you don't want to deal with Jekyll markdown settings you can just leave your 
 
 ### Jekyll Now
 [Jekyll Now](https://github.com/barryclark/jekyll-now) is good for starting your blog without the hussle of setting up Jekyll locally.
-You can just clone/fork the repository and your good to go.
+You can just clone/fork the repository and you're good to go.
