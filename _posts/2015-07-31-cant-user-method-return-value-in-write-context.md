@@ -1,5 +1,6 @@
 ---
 title: Can't use method return value in write context
+excerpt: Solution for can't use method return value in write context.
 categories: [php]
 tags: [php]
 published: True

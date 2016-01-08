@@ -1,5 +1,6 @@
 ---
 title: Filter wp-admin access by user capability
+excerpt: There are times where we need to block non-admins from accessing wp-admin, or better block access based on capability. We can do this by redirecting the page if the user doesn't meet the required capability.
 categories: [wordpress]
 tags: [wordperss,php]
 published: True

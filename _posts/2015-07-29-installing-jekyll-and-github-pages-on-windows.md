@@ -1,5 +1,6 @@
 ---
 title: Installing Jekyll and Github Pages on Windows
+excerpt: My blog is proudly hosted with Github Pages I used Github installation instructions to build it. It's pretty simple until I bump onto some issues while trying to make things work on my Windows machine.
 categories: [ jekyll, github ]
 tags: [ jekyll, github, ruby, bundler, gem ]
 devicon: github

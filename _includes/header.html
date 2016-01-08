@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ page.title }}</title>
+    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt }}">{% endif %}
 
     <link rel="stylesheet" type="text/css" href="/assets/css/syntax/monokai.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">

@@ -1,7 +1,7 @@
 ---
 title: Update Wordpress using SSH
 devicon: wordpress
-excerpt: We have to create a maintenance page so that users who access your website will be notified that you're website is just undergoing maintenance and everything is undercontrol. We don't want them to see error messages or a blank page while files are being updated.
+excerpt: We have to create a maintenance page so that users who access your website will be notified that you're website is just undergoing maintenance and everything is undercontrol..
 ---
 
 ## 1. Create a maintenance page
