@@ -14,8 +14,12 @@
             max-height: 100px;
             border-radius: 50%;
             overflow: hidden;
-            float: left;
-            margin-right: 15px;
+            margin: 0 auto 30px;
+
+            @media #{$sm-up} {
+                float: left;
+                margin: 0 15px 0 0;
+            }
 
             img {
                 max-width: 100%;
@@ -34,7 +38,11 @@
         }
 
         .wrap {
-            float: left;
+            margin: 0 auto;
+
+            @media #{$sm-up} {
+                float: left;
+            }
         }
     }
 
